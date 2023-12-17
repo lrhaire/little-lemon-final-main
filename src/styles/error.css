@@ -1,0 +1,23 @@
+.error-container {
+text-align: center;
+padding: 10px;
+margin: 80px;
+}
+
+.error-container h1 {
+    color: red;
+    font-size: 60px;
+}
+
+.error-container h2 {
+    font-size: 40px;
+}
+
+.error-container ul {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.error-container ul li {
+    padding: 10px;
+}

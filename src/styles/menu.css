@@ -1,0 +1,74 @@
+
+.menu-container {
+  color: var(--green);
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-bottom: 50px;
+} 
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.heading h3 {
+  padding-top: 10px;
+  color: #EE9972;
+  font-size: 20px;
+}
+
+.menu-items{
+  background: var(--gray);
+  border-radius: 16px;
+  border: 2px solid var(--gray);
+  height: 470px;
+  width: 350px;
+  }
+
+.menu-container img{
+  width: 100%;
+  height: 230px;
+  border-radius: 16px;
+  }
+
+.menu-content{
+  padding: 5px 15px;
+  margin: 10px;
+  }
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: center;
+  margin: 10px;
+  }
+  
+.orderbtn {
+  background-color: var(--gray);
+  border-radius: 16px;
+  color: var(--green); 
+  margin-top: 15px;
+  font-weight: 500;
+  }
+
+.order-bike img {
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  }

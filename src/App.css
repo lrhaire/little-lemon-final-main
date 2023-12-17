@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+:root {
+  --yellow: #F4CE14;
+  --green: #495E57;
+  --coral: #ee9972;
+  --ivory: #EDEFEE;
+  --gray: #C5C5C5;
+}
+
+body {
+  background: #D9D9D9;;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+	background-color: #f4ce14;
+  color: #000;
+	border: none;
+	border-radius: 16px;
+	font-weight: bold;
+  font-size: 20px;
+	align-self: center;
+	cursor: pointer;
+  padding: 10px 5px;
+	transition: all .1s ease-in-out;
+  width: 200px;
+
+}
+
+button:hover {
+	background-color: #EE9972;
+	transform: scale(1.05);
+}
+
+button:active {
+	background-color: #EE9972;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .hero-img{
+    display: none;
+  }
+
+  form, .comfirm{
+    padding: 10px 8%;
+  }
+  
+  .hero, .menu-container{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .menu-container .menu-header{
+    flex-direction: column;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .menu-items{
+    max-width: 100%;
+  }
+
+  .testimonials {
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  max-width: 100%;
+  }
+
+  .testimonials-cards {
+    display: flex;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .founders {
+    text-align: center;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .founders section {
+    justify-content: center;
+  }
+
+  
+footer section{
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .company-info p{
+    width: 100%;
+  }
+}
+
+.hidden{
+  display: none;
+}

@@ -1,0 +1,39 @@
+
+.founders {
+  background-color: #D9D9D9;
+  }
+
+.founders section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+  }
+
+.founders-text {
+    text-align: center;
+  }
+
+.founders h1 {
+    color: var(--green);
+    line-height: 65px;
+    margin-top: 30px;
+  }
+  
+.founders h2 {
+    color: var(--green);
+    line-height: 30px;
+    padding-bottom: 27px;
+  }
+
+.founders p {
+    max-width: 520px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    color: black;
+  }
+  
+.founders-img img {
+    border-radius: 16px;
+    margin: 20px;
+  }
